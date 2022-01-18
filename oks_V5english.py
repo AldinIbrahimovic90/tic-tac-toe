@@ -27,14 +27,6 @@ def end(l1):
     elif the_end(l1, o):
         return winer_draw(o)
 
-
-# def male(symbol, lastCar):
-#     if lastCar:
-#         print(symbol[0], "je pobjedila: ", symbol[2])
-#     else:
-#         print(symbol[0], "je pobjedio: ", symbol[2])
-
-
 def input_row(symbol):
     while True:
         try:
@@ -220,10 +212,6 @@ else:
             X = [comp, x, 0]
             start = 1
             break
-p = " "
-x = "X"
-o = "O"
-
 
 winer = ""
 draw = 0
